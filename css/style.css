@@ -53,6 +53,13 @@ header nav{
     height: 7vh;
 }
 
+button{
+    border-style: none;
+    font-size: 1rem;
+    background-color: #0261F8;
+    padding: 10px;
+    color: white;
+}
 
 header ul>li{
     list-style-type: none;
@@ -61,14 +68,8 @@ header ul>li{
 }
 
 header div.header-right button.start{
-    border-style: none;
-    font-size: 1rem;
-    background-color: #0261F8;
-    padding: 10px;
-    color: white;
     margin: 15px;
     padding-left: 20px;
-
     padding-right: 20px;
 }
 
@@ -95,12 +96,6 @@ section .jumbo-content div.jumbo-description{
 }
 
 button.free-trial-button{
-    border-style: none;
-    font-size: 1rem;
-    background-color: #0261F8;
-    padding: 10px;
-    color: white;
-    margin: 15px;
     padding: 15px;
     margin: 25px 0 25px 0;
 }
@@ -129,7 +124,7 @@ main div.radio-box{
     margin-right: 40px;
 }
 
-main section.plans .professional,
+section.plans .professional,
 .advanced,
 .enterprise{
     width: 330px;
@@ -138,7 +133,7 @@ main section.plans .professional,
     margin-top: 50px;
 }
 
-main section.plans div.plan{
+div.plan{
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #D1D1D4 ;
@@ -159,7 +154,7 @@ main section.plans div.plan-container button{
 }
 
 main section.plans div.plan-container hr{
-    width: 10%;
+    width: 20%;
 }
 
 main section.plans i.fa-check{
@@ -167,3 +162,32 @@ main section.plans i.fa-check{
 }
 
 
+main section.enterprise-info{
+    border: 1px solid #D1D1D4 ;
+    margin-top: 50px;
+}
+
+main section.enterprise-info div.plan-enterprise{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #D1D1D4;
+    
+}
+
+main section.enterprise-info div.enterprise-contacts{
+    position: relative;
+    padding: 50px;
+}
+
+main section.enterprise-info div.enterprise-contacts button{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    padding: 10px 30px 10px 30px;
+}
+
+
+main section.partner div.partner-img{
+    
+    height: ;
+}
