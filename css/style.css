@@ -224,11 +224,7 @@ h1.operation{
 
 main section.cards-row{
     justify-content: space-between;
-    margin-bottom: 200px;
-    height: 300px;
-}
-main section.cards-row div.card{
-    /* height: 900px; */
+    margin-bottom: 30px;
 }
 
 main section.cards-row div.card{
@@ -248,7 +244,8 @@ main section.cards-row div.card h2{
     margin-bottom: 20px;
 }
 
-div.business-title{
+div.business-title h1{
     max-width: 60%;
-    margin-top: 300px;
+    margin-top: 150px;
+    margin-bottom: 40px;
 }
