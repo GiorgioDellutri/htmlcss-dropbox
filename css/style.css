@@ -158,6 +158,12 @@ main section.plans div.plan-container button{
     width: 100%;
 }
 
+main section.plans div.plan-container hr{
+    width: 10%;
+}
+
 main section.plans i.fa-check{
     color: #005FF8;
 }
+
+
