@@ -90,6 +90,7 @@ section div.jumbo-content div.jumbo-title{
     font-size: 3em;
     font-weight: bolder;
     margin-bottom: 20px;
+    margin-top: ;
 }
 
 section .jumbo-content div.jumbo-description{
@@ -113,7 +114,7 @@ section div.jumbo-text-img span.arrow{
     font-size: 5rem;
 }
 
-main.small-container h1{
+main.small-container .main-title-plans{
     margin-top: 120px;
     margin-bottom: 50px;
     font-size: 2.5rem;
@@ -140,12 +141,14 @@ div.plan{
     border-bottom: 1px solid #D1D1D4 ;
 }
 
-main section.plans div.plan-container h2,h3{
+main section.plans div.plan-container h2,
+h3{
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-main section.plans div.plan-container p, h3{
+main section.plans div.plan-container p,
+h3{
     margin-bottom: 25px;
 }
 
@@ -160,7 +163,6 @@ main section.plans div.plan-container hr{
 main section.plans i.fa-check{
     color: #005FF8;
 }
-
 
 main section.enterprise-info{
     border: 1px solid #D1D1D4 ;
@@ -213,6 +215,11 @@ main section.partner div.partner-text button.find-partner{
     color: black;
     border: 1px solid black;
     margin-top: 30px;
+}
+
+h1.operation{
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 main section.cards-row{
