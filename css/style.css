@@ -12,13 +12,20 @@
     display: flex;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-
+.big-container{
+    width: 63vw;
+    margin: 0 auto;
 }
 
-header{
-    position: sticky;
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav{
+        position: fixed;
+        top:0; left:0;
+        width: 100%; 
+        background-color: white;
 }
 
 nav.flex-space-between{
@@ -45,20 +52,45 @@ header div.header-right button.start{
     padding-right: 20px;
 }
 
-header div.jumbotron{
-    justify-content: center;
-    height: 80vh;
-    background-color: #ADCCE2;
+section{
+background-color: #ADCCE2;
+height: 75vh;
 }
 
-header div.jumbotron div.jumbo-content{
-    height: 75vh;
-    width: 60vw;
-    margin-top: 100px;
+section .jumbo-content{
+    height: 60vh;
+    margin-top: 80px;
+    height: 70vh;
 }
 
-section div.jumbo-content div.jumbo-title h1{
-    font-size: 4rem;
-    width: 800px;
-    font-weight: ;
+section div.jumbo-content div.jumbo-title{
+    max-width: 90%;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+section .jumbo-content div.jumbo-description{
+    flex-basis: 30%;
+}
+
+section .jumbo-content div.jumbo-description button.free-trial-button{
+    border-style: none;
+    font-size: 1rem;
+    background-color: #0261F8;
+    padding: 15px;
+    color: white;
+    margin: 25px 0 25px 0;
+}
+
+section .jumbo-content div.jumbo-img{
+    flex-basis: 70%;
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section div.jumbo-text-img span.arrow{
+    font-size: 5rem;
 }
