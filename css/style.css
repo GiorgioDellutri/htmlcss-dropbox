@@ -4,12 +4,25 @@
     box-sizing: border-box;
 }
 
-.border{
-    border: 1px dashed black;
+
+/* .border{
+    border: 1px solid black;
 }
+ */
 
 .flex{
     display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .big-container{
@@ -22,23 +35,24 @@
     margin: 0 auto;
 }
 
+.plan-container{
+    width: 260px;
+    height: 400px;
+    margin: 0 auto;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
 header nav{
-        position: fixed;
-        top:0; left:0;
-        width: 100%; 
-        background-color: white;
-        height: 7vh;
+    position: fixed;
+    top:0; left:0;
+    width: 100%; 
+    background-color: white;
+    height: 7vh;
 }
 
-.flex-space-between{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 header ul>li{
     list-style-type: none;
@@ -54,6 +68,7 @@ header div.header-right button.start{
     color: white;
     margin: 15px;
     padding-left: 20px;
+
     padding-right: 20px;
 }
 
@@ -79,12 +94,14 @@ section .jumbo-content div.jumbo-description{
     flex-basis: 30%;
 }
 
-section .jumbo-content div.jumbo-description button.free-trial-button{
+button.free-trial-button{
     border-style: none;
     font-size: 1rem;
     background-color: #0261F8;
-    padding: 15px;
+    padding: 10px;
     color: white;
+    margin: 15px;
+    padding: 15px;
     margin: 25px 0 25px 0;
 }
 
@@ -116,7 +133,31 @@ main section.plans .professional,
 .advanced,
 .enterprise{
     width: 330px;
-    height: 800px;
-    border: 1px solid black;
+    height: 1000px;
+    border: 1px solid #D1D1D4;
     margin-top: 50px;
+}
+
+main section.plans div.plan{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #D1D1D4 ;
+}
+
+main section.plans div.plan-container h2,
+h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main section.plans div.plan-container p{
+    margin-bottom: 25px;
+}
+
+main section.plans div.plan-container button{
+    width: 100%;
+}
+
+main section.plans i.fa-check{
+    color: #005FF8;
 }
