@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.border{
+    border: 1px dashed black;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: rebeccapurple;
+}
+
+header ul>li{
+    /* RIMUOVERE WIDTH DOPO INSERIMENTO */
+    width: 100px;
+    background-color: lightgoldenrodyellow;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
