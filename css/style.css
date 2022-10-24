@@ -10,22 +10,55 @@
 
 .flex{
     display: flex;
-    flex-direction: row;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header{
+    position: sticky;
+}
 
 nav.flex-space-between{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
-    background-color: rebeccapurple;
+    height: 7vh;
 }
 
 header ul>li{
-    /* RIMUOVERE WIDTH DOPO INSERIMENTO */
-    width: 100px;
-    background-color: lightgoldenrodyellow;
     list-style-type: none;
-    font-size: 1.5rem;
+    padding: 20px;
+    line-height: 27px;
+}
+
+header div.header-right button.start{
+    border-style: none;
+    font-size: 1rem;
+    background-color: #0261F8;
+    padding: 10px;
+    color: white;
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header div.jumbotron{
+    justify-content: center;
+    height: 80vh;
+    background-color: #ADCCE2;
+}
+
+header div.jumbotron div.jumbo-content{
+    height: 75vh;
+    width: 60vw;
+    margin-top: 100px;
+}
+
+section div.jumbo-content div.jumbo-title h1{
+    font-size: 4rem;
+    width: 800px;
+    font-weight: ;
 }
