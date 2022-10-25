@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-
-/* .border{
-    border: 1px solid black;
-}  */
-
-
 .flex{
     display: flex;
 }
@@ -20,9 +14,12 @@
 }
 
 .flex-space-between{
-    display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 .big-container{
@@ -43,7 +40,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
 
 header nav{
     position: fixed;
@@ -109,7 +105,7 @@ section div.jumbo-text-img span.arrow{
     font-size: 5rem;
 }
 
-main.small-container section#radio-button header h1.main-title-plans{
+main section.radio-button header h1.main-title-plans{
     padding-top: 120px;
     padding-bottom: 50px;
     font-size: 2.6rem;
@@ -223,30 +219,29 @@ main section.partner div.partner-text button.find-partner{
     margin-top: 30px;
 }
 
-h1.operation{
+h1.cards-title{
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
-main section.cards-row{
-    justify-content: space-between;
-    margin-bottom: 30px;
+main section.cards-box div.card{
+    margin-bottom: 50px;
 }
 
-main section.cards-row div.card{
+main section.cards-box div.card{
     width: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-main section.cards-row div.card img{
-    width: 300px;
-    height: 250px;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
-main section.cards-row div.card h2{
+main section.cards-box div.card img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+main section.cards-box div.card h2{
     margin-bottom: 20px;
 }
 
@@ -256,4 +251,92 @@ div.business-title h1{
     margin-top: 150px;
     margin-bottom: 40px;
     font-weight: bolder;
+}
+
+section.teams div.squares{
+    margin-top: 100px;
+    background-color: purple;
+}
+
+section.teams div.squares .square{
+    width: calc(100vw / 3) ;
+    height: calc(100vw / 3);
+}
+
+div.squares .square div.pics{
+    width: calc(100% / 2);
+    height: calc(100% /2) ;
+    border: 1px solid green;
+}
+
+.square div.pics1 {
+    background-image: url(../img/designit.svg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.square div.pics2 {
+    background-image: url(../img/arizona_state_university.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section.jumbo-bottom{
+    height: 300px;
+    background-color:#ADCCE2;
+}
+
+section.jumbo-bottom div.jumbo-bottom-content{
+    position: relative;
+}
+
+div.jumbo-bottom-content button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+}
+
+div.jumbo-bottom-content h2{
+    font-size: 2rem;
+    color: #570027;
+    display: inline;
+    padding-bottom: 30px;
+}
+
+section.questions div.questions-content h2{
+    font-size: 2rem;
+    margin-top: 150px;
+    padding-bottom: 40px;
+}
+
+section.questions div.questions-content p{
+    padding:30px 400px 30px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+footer{
+    height: 400px;
+    background-color: black;
+    margin-top: 150px;
+    color: white;
+}
+
+footer div.footer-container{
+    height: 100%;
+}
+
+footer div.footer-container h2{
+    padding-bottom: 20px;
+} 
+
+footer ul>li{
+    list-style-type: none;
+    padding-bottom: 10px;
 }
