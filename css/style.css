@@ -26,7 +26,7 @@
 }
 
 .big-container{
-    width: 60vw;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -45,12 +45,15 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* header{
+    height: 70px;
+} */
+
 header nav{
     position: fixed;
     top:0; left:0;
-    width: 100%; 
+    width: 100%;
     background-color: white;
-    height: 7vh;
     z-index: 2;
 }
 
@@ -76,20 +79,17 @@ header div.header-right button.start{
 
 section.jumbo{
 background-color: #ADCCE2;
-height: 75vh;
+height: 790px;
 }
 
 section .jumbo-content{
-    height: 60vh;
-    margin-top: 100px;
+    padding-top: 150px;
     height: 70vh;
 }
 
-section div.jumbo-content div.jumbo-title{
-    max-width: 95%;
-    font-size: 3em;
-    font-weight: bolder;
-    margin-bottom: 20px;
+section div.jumbo-content h1.jumbo-title{
+    font-size: 4.7em;
+    padding-bottom: 50px;
 }
 
 section .jumbo-content div.jumbo-description{
@@ -114,7 +114,7 @@ section div.jumbo-text-img span.arrow{
 }
 
 main.small-container .main-title-plans{
-    margin-top: 120px;
+    padding-top: 120px;
     margin-bottom: 50px;
     font-size: 2.5rem;
     font-weight: bolder;
