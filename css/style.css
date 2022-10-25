@@ -109,10 +109,10 @@ section div.jumbo-text-img span.arrow{
     font-size: 5rem;
 }
 
-main.small-container .main-title-plans{
+main.small-container section#radio-button header h1.main-title-plans{
     padding-top: 120px;
     padding-bottom: 50px;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: bolder;
 }
 
