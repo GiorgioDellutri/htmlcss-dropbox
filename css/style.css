@@ -39,6 +39,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    /* min-width: 1550px; */
 }
 
 header{
@@ -376,21 +377,30 @@ section.questions div.questions-content p{
 }
 
 footer{
-    height: 400px;
+    height: 500px;
     background-color: black;
     margin-top: 150px;
     color: white;
 }
 
 footer div.footer-container{
-    height: 100%;
+    padding: 100px 0; 
 }
 
-footer div.footer-container h2{
+footer div.footer-container div.footer-content h2{
     padding-bottom: 20px;
 } 
 
 footer ul>li{
     list-style-type: none;
     padding-bottom: 10px;
+}
+
+footer div.language hr{
+    width: 10%;
+}
+
+footer div.language i{
+    padding-top: 40px;
+    /* vertical-align:text-bottom; */
 }
