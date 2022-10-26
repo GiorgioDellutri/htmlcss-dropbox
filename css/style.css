@@ -80,16 +80,15 @@ header div.header-right button.start{
 
 section.jumbo{
 background-color: #ADCCE2;
-height: 790px;
+height: 740px;
 }
 
 section .jumbo-content{
-    padding-top: 150px;
-    height: 70vh;
+    padding-top: 100px;
 }
 
 section div.jumbo-content h1.jumbo-title{
-    font-size: 4.7em;
+    font-size: 4.7rem;
     padding-bottom: 50px;
     font-weight: bolder;
 }
@@ -265,24 +264,78 @@ div.business-title h1{
 
 section.teams div.squares{
     margin-top: 100px;
-    background-color: purple;
+    background-color: #F5F5F5;
 }
 
 section.teams div.squares .square{
-    width: calc(100vw / 3) ;
+    width: calc(100vw / 3);
     height: calc(100vw / 3);
 }
-
-div.squares .square div.pics{
-    width: 315px;
-    height: 315px;
-    border: 1px solid green;
+div.square div.square-client{
+    height: 50%;
+    width: 50%;
+    position: relative;
 }
 
-.square div.pics{
-    width: 100%;
-    height: 100%;
+.square div.square-client img{
+    max-width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100);
 }
+
+.square div.green{
+    background-color:#9BCE96;
+}
+
+.square div.brown{
+    background-color:#570027;
+}
+
+.square div.cyan{
+    background-color:#178EC5;
+}
+
+.square div.amaranth{
+    background-color:#FB0021;
+}
+
+.square div.red{
+    background-color:#CD0021;
+}
+
+.square div.light-blue{
+    background-color:#ADCCE2;
+}
+
+.square div.blue{
+    background-color:#0F2774;
+}
+
+.square div.yellow{
+    background-color:#FECF45;
+}
+
+.squares div.center{
+    padding: 60px 50px;
+} 
+
+.squares div.center div.square-client-center img{
+    max-width: 50%;
+    margin-bottom: 40px;
+}
+
+.squares div.center hr{
+    width: 20%;
+    margin-bottom: 40px;
+} 
+.squares div.center p{
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+} 
+
 
 section.jumbo-bottom{
     height: 300px;
@@ -295,10 +348,12 @@ section.jumbo-bottom div.jumbo-bottom-content{
 
 div.jumbo-bottom-content button{
     position: absolute;
-    top: 0;
+    padding: 15px 50px;
+    top: -20px;
     right: 0;
     background-color: white;
     color: black;
+    vertical-align: top;
 }
 
 div.jumbo-bottom-content h2{
