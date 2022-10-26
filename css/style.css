@@ -290,6 +290,8 @@ div.square div.square-client{
 
 .square div.green{
     background-color:#9BCE96;
+    outline: 15px solid #D1E9CD ;
+    outline-offset: -15px;
 }
 
 .square div.brown{
