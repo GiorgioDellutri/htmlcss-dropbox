@@ -402,5 +402,10 @@ footer div.language hr{
 
 footer div.language i{
     padding-top: 40px;
-    /* vertical-align:text-bottom; */
+
+}
+
+div.language .fa-caret-up{
+    position: relative;
+    top:2px;
 }
