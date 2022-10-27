@@ -102,7 +102,7 @@ section .jumbo-content div.jumbo-description{
     flex-basis: 30%;
 }
 
-button.free-trial{
+button.free-trial-jumbo{
     padding: 15px;
     margin: 25px 0 25px 0;
 }
@@ -173,6 +173,10 @@ main section.plans div.plan-container button{
     margin: 25px 0 25px 0;
 }
 
+button:hover{
+    background-color: #2a75ee;
+}
+
 main section.plans div.plan-container hr{
     width: 20%;
 }
@@ -236,6 +240,10 @@ main section.partner div.partner-text button.find-partner{
     border: 1px solid black;
     padding: 12px;
     margin-top: 30px;
+}
+
+div.partner-text button.find-partner:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 h1.cards-title{
@@ -368,6 +376,10 @@ div.jumbo-bottom-content button{
     vertical-align: top;
 }
 
+div.jumbo-bottom-content button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 div.jumbo-bottom-content h2{
     font-size: 2rem;
     color: #570027;
@@ -408,6 +420,10 @@ footer ul>li{
 }
 footer ul li>a{
     color: white;
+}
+
+footer ul li>a:hover{
+    text-decoration: underline;
 }
 
 footer div.language hr{
