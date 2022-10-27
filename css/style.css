@@ -116,7 +116,9 @@ section .jumbo-content div.jumbo-img{
 }
 
 section div.jumbo-text-img span.arrow{
-    font-size: 5rem;
+    margin-top: 30px;
+    font-size: 3.5rem;
+    display: inline-block;
 }
 
 main section.radio-button  h1.main-title-plans{
@@ -359,7 +361,6 @@ div.square div.square-client{
     font-size: 1.1rem;
     margin-bottom: 50px;
 } 
-
 
 section.jumbo-bottom{
     height: 300px;
