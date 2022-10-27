@@ -403,6 +403,10 @@ section.questions div.questions-content p{
     font-weight: bold;
 }
 
+section.questions div.questions-content p:hover{
+    text-shadow: 0.5px 0px 0px black;
+}
+
 footer{
     height: 500px;
     background-color: black;
