@@ -280,6 +280,10 @@ div.business-title h1{
     font-weight: bolder;
 }
 
+section.teams a:hover{
+    text-decoration: underline;
+}
+
 section.teams div.squares{
     margin-top: 100px;
     background-color: #F5F5F5;
