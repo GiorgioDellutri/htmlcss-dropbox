@@ -374,7 +374,7 @@ section.jumbo-bottom div.jumbo-bottom-content{
 div.jumbo-bottom-content button{
     position: absolute;
     padding: 15px 50px;
-    top: 0;
+    top: 10px;
     right: 0;
     background-color: white;
     color: black;
