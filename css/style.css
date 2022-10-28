@@ -197,7 +197,6 @@ main section.enterprise-info div.plan-enterprise{
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #D1D1D4;
-    
 }
 
 main section.enterprise-info div.enterprise-contacts{
@@ -265,7 +264,6 @@ main section.cards-box div.card{
 }
 
 main section.cards-box div.card img{
-    height: 100%;
     width: 100%;
     background-size: cover;
 }
@@ -295,10 +293,17 @@ section.teams div.squares .square{
     width: calc(100vw / 3);
     height: calc(100vw / 3);
 }
+
 div.square div.square-client{
     height: 50%;
     width: 50%;
     position: relative;
+    transition: transform .2s ease-in-out;
+}
+
+div.square div.square-client:hover{
+    transform: scale(1.1);
+    z-index: 2;
 }
 
 .square div.square-client img{
